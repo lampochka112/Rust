@@ -83,3 +83,9 @@ Rust by Example "https://doc.rust-lang.org/rust-by-example/"
 cargo build  # Сборка
 cargo run    # Запуск
 cargo test   # Тесты
+
+Пример архитектуры: Python + Rust
+
+graph LR
+    A[Python: UI/Скрипты] --> B[Rust: Вычисления/Алгоритмы]
+    B --> C[C-библиотеки]
