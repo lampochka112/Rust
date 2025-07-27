@@ -1,6 +1,6 @@
 [lib]
 name = "rust_fibonacci"
-crate-type = ["cdylib"]  # Важно для сборки .so/.dll
+crate-type = ["cdylib""]  # Важно для сборки .so/.dll
 
 [dependencies]
 pyo3 = { version = "0.20", features = ["extension-module"] }
