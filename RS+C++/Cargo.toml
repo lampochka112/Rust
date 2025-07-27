@@ -1,0 +1,6 @@
+[lib]
+name = "rust_math"
+crate-type = ["cdylib"]  # Важно для совместимости с C++
+
+[dependencies]
+libc = "0.2"  # Для совместимых типов данных (например, c_int)
