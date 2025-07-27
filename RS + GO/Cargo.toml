@@ -1,0 +1,6 @@
+[lib]
+name = "rust_go_math"
+crate-type = ["cdylib"]  # Динамическая библиотека
+
+[dependencies]
+libc = "0.2"  # Для C-совместимых типов
